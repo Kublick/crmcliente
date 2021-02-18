@@ -3,6 +3,7 @@ import Head from "next/head";
 import Sidebar from "./Sidebar";
 import { useRouter } from "next/router";
 import Login from "../pages/login";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
 	const router = useRouter();
@@ -20,6 +21,7 @@ const Layout = ({ children }) => {
 					<div className="flex min-h-screen">
 						<Sidebar />
 						<main className="p-5 xl:w-4/5 sm:w-2/3 sm:min-h-screen">
+							<Header />
 							{children}
 						</main>
 					</div>
