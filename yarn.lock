@@ -2288,6 +2288,11 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+sweetalert2@^10.15.4:
+  version "10.15.4"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-10.15.4.tgz#27ec887417d2949e5759699c1c4e0824fe55f03c"
+  integrity sha512-s5fCMG+rP0a7dyLlb5t0502DCyRKtuQN6We5QqT7GNHv2SurmyQ5i/82tJaTz9dhISPGl8cOn9vo5v9NZ0DDdQ==
+
 symbol-observable@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-2.0.3.tgz#5b521d3d07a43c351055fa43b8355b62d33fd16a"
